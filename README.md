@@ -1,116 +1,54 @@
-# Student Performance Analysis — Behavioral Factors Study
+## Student Performance Analysis — Behavioral Data Insights
 
-## Overview
+### Overview
 
-This project explores the relationship between student behavior and academic performance through data analysis and visualization.
+This project explores how daily habits influence academic performance by modeling relationships between study time, sleep, phone usage, and exam scores.
 
-The study focuses on three key factors:
-
-* study time
-* sleep duration
-* phone usage
-
-The objective is to identify patterns and understand how these variables influence exam outcomes.
+Rather than treating performance as a fixed outcome, the analysis frames it as a result of interacting behavioral factors.
 
 ---
 
-## Problem Statement
+### Analytical Focus
 
-Student performance is influenced by multiple lifestyle factors. This project aims to answer:
+The system examines three key relationships:
 
-* How does study time affect exam scores?
-* Does sleep contribute to better academic performance?
-* What is the impact of phone usage on student success?
+* Study time vs exam performance
+* Sleep duration vs cognitive outcomes
+* Phone usage vs academic results
 
----
-
-## Data
-
-A structured dataset was created with the following variables:
-
-* `study_hours`: number of hours spent studying
-* `phone_hours`: daily phone usage
-* `sleep_hours`: hours of sleep
-* `exam_score`: exam performance
-
-The dataset contains 8 observations representing different behavioral patterns.
+Each variable is analyzed to identify patterns that explain performance differences.
 
 ---
 
-## Methodology
+### Method
 
-### Data Preparation
+* Structured dataset representing student habits
+* Multi-variable comparison using scatter plots
+* Visual pattern recognition through Plotly
 
-* Data was organized using a Pandas DataFrame
-* Variables were selected to represent key behavioral factors
-
----
-
-### Visualization
-
-Three scatter plots were created using Plotly:
-
-1. Study Hours vs Exam Score
-2. Sleep Hours vs Exam Score
-3. Phone Usage vs Exam Score
-
-These visualizations help identify relationships between variables and performance.
+The goal is not prediction, but understanding underlying behavioral trends.
 
 ---
 
-## Results
+### Observations
 
-### Study Time
+* Increased study time is consistently associated with higher exam scores
+* Adequate sleep correlates with improved performance stability
+* Higher phone usage shows a negative relationship with results
 
-A positive relationship is observed between study hours and exam scores:
-
-* Increased study time is associated with higher performance
-
----
-
-### Sleep
-
-Sleep also shows a positive correlation:
-
-* Students with more sleep tend to achieve better results
+These patterns suggest that performance is not driven by a single factor, but by a balance of habits.
 
 ---
 
-### Phone Usage
+### Insight
 
-A negative relationship is observed:
+Academic success can be interpreted as a behavioral system rather than an isolated metric.
 
-* Higher phone usage is associated with lower exam scores
-
----
-
-## Key Insights
-
-* Academic performance improves with increased study time
-* Adequate sleep is an important factor in learning efficiency
-* Excessive phone usage may negatively impact concentration and results
+Small daily choices compound into measurable outcomes, and even simple data models can reveal these dynamics clearly.
 
 ---
 
-## Limitations
-
-* Small dataset size
-* Synthetic data does not capture real-world complexity
-* No statistical tests or modeling applied
-
----
-
-## Future Improvements
-
-* Use real-world student datasets
-* Apply statistical analysis (correlation coefficients, regression)
-* Conduct hypothesis testing
-* Expand features (e.g., stress, attendance, study methods)
-* Build predictive models
-
----
-
-## Tech Stack
+### Tools
 
 * Python
 * Pandas
@@ -118,23 +56,6 @@ A negative relationship is observed:
 
 ---
 
-## Repository Structure
+### Closing Note
 
-```id="q7w8e9"
-student-performance-analysis/
-│
-├── notebook.ipynb
-├── README.md
-```
-
----
-
-## Conclusion
-
-The analysis suggests that student performance is influenced by behavioral factors. Increased study time and sufficient sleep contribute positively, while excessive phone usage has a negative effect.
-
----
-
-## Author
-
-Independent project focused on data analysis and behavioral insights in education.
+This analysis demonstrates how even minimal datasets can be used to uncover meaningful relationships when approached with a systems perspective.
